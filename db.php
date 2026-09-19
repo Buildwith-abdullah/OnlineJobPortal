@@ -4,9 +4,9 @@ $host = "sql13.infinityfree.com";
 
 $username = "if0_42956961";
 
-$password = "YOUR_INFINITYFREE_PASSWORD";
+$password = "93CzyGQZ2L3J";
 
-$database = "YOUR_FULL_DATABASE_NAME";
+$database = "if0_42956961_job_portal";
 
 
 $conn = mysqli_connect(
