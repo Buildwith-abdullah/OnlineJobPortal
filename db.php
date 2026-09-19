@@ -1,9 +1,12 @@
 <?php
 
-$host = "sql12.freesqldatabase.com";
-$username = "sql12837375";
-$password = "kIiegACFih";
-$database = "sql12837375";
+$host = "sql13.infinityfree.com";
+
+$username = "if0_42956961";
+
+$password = "YOUR_INFINITYFREE_PASSWORD";
+
+$database = "YOUR_FULL_DATABASE_NAME";
 
 
 $conn = mysqli_connect(
@@ -16,7 +19,7 @@ $conn = mysqli_connect(
 
 if (!$conn) {
 
-    die("Connection failed: " . mysqli_connect_error());
+    die("Database connection failed: " . mysqli_connect_error());
 
 }
 
