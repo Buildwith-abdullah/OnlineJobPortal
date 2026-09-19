@@ -1,56 +1,75 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Online Job Portal</title>
 
-    <style>
-        body {
-            font-family: Arial;
-            background-color: #f2f2f2;
-            text-align: center;
-            padding-top: 100px;
-        }
+<title>CareerConnect - Job Recruitment System</title>
 
-        .box {
-            background: white;
-            width: 500px;
-            margin: auto;
-            padding: 40px;
-            border-radius: 10px;
-        }
-
-        h1 {
-            color: #333;
-        }
-
-        button {
-            padding: 12px 25px;
-            background: #007bff;
-            color: white;
-            border: none;
-            border-radius: 5px;
-        }
-    </style>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
 </head>
-
 <body>
 
-<div class="box">
+<nav class="navbar navbar-dark bg-primary">
 
-<h1>
-Welcome to Online Job Portal
-</h1>
+<div class="container">
 
-<p>
-A platform connecting job seekers and employers.
-</p>
+<a class="navbar-brand" href="index.php">
 
-<button>
-Get Started
-</button>
+CareerConnect
+
+</a>
+
+
+<div>
+
+<a class="btn btn-light" href="login.php">
+
+Login
+
+</a>
+
+
+<a class="btn btn-warning" href="register.php">
+
+Register
+
+</a>
 
 </div>
+
+
+</div>
+
+</nav>
+
+
+
+<div class="container text-center mt-5">
+
+
+<h1 class="display-4">
+
+Welcome to CareerConnect
+
+</h1>
+
+
+<p class="lead">
+
+A Web-Based Job Recruitment and Management System
+
+</p>
+
+
+<a href="jobs.php" class="btn btn-primary btn-lg">
+
+Find Jobs
+
+</a>
+
+
+</div>
+
 
 </body>
 </html>
