@@ -122,11 +122,13 @@ while($row=mysqli_fetch_assoc($result)){
 
 
 
+<a href="apply.php?id=<?php echo $row['id']; ?>">
+
 <button>
-
 Apply Now
-
 </button>
+
+</a>
 
 
 
